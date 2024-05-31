@@ -1,0 +1,80 @@
+
+body{
+    background-color: black;  
+color:aliceblue;
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+img{
+    width: 200px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(219, 38, 38, 0.801);
+    transition: 0.3s;
+    width: 300px;
+    display: inline-block;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgb(255, 0, 0);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+  .fotabla{
+    text-align: center;
+    margin: auto;
+  }
+  .kartyatabla{
+    margin-left: 500px;
+  }
+  
+  a, a:hover{
+    color: black;
+  }
+  
+  tr{
+    display: block;
+     color: black;
+  }
+  
+  .tablazat {
+    border-collapse: collapse; 
+  }
+  
+  td {
+    width: 150px;
+    height: 200px;
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  td.card:hover {
+    transform: scale(1.05);
+  }
+  
+  td.empty {
+    border: none;
+    background: none;
+  }
+  
+  div{
+    width: 1000px;
+    margin: auto;
+    display: block;
+    text-align: center;
+ }
+ 
+ h1{
+    text-align: center;
+    margin-left: 600px;
+}
