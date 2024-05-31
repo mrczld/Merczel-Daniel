@@ -1,0 +1,144 @@
+body{
+background-color: black;  
+color:aliceblue  
+}
+
+h1{
+    text-align: center;
+    text-size-adjust: 70px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.container-sm{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #14ccc3d8;
+  }
+
+.kep{
+    width: 1300px;
+   
+}
+
+div{
+   width: 1200px;
+   margin: auto;
+   display: block;
+}
+
+.versenyzo{
+
+  width: 220px;
+
+}
+
+p{
+  text-align: justify;
+  text-size-adjust: 40px;
+}
+
+.form-floating mb-3 mt-3{
+  float: right;
+}
+
+footer{
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  
+}
+
+img{
+  width: 200px;
+}
+
+.tabla{
+  text-align: center;
+  margin: auto;
+}
+
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(219, 38, 38, 0.801);
+  transition: 0.3s;
+  width: 300px;
+  display: inline-block;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgb(255, 0, 0);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.fotabla{
+  text-align: center;
+  margin: auto;
+}
+.kartyatabla{
+  margin-left: 500px;
+}
+
+a, a:hover{
+  color: black;
+}
+
+tr{
+  display: block;
+}
+
+.tablazat {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+    color: black;
+}
+
+th, td {
+    border: 1px solid #0000;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+    color: black;
+}
